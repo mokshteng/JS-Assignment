@@ -1,0 +1,5 @@
+const str="Danny is dancing"
+const res=str.split("").sort((first,second)=>{
+    return first.localeCompare(second)
+}).join("").trim()
+console.log(res)
