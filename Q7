@@ -1,0 +1,5 @@
+Output will be:
+false
+false
+true
+as 0/0 is NaN and while comparing NaN, the equality operator always evaluates to false. But in the last statment we are first checking whether 0/0 is NaN or not. As it is NaN, both side will evaluate to true and true===true is true.

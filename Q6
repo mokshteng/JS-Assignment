@@ -1,0 +1,1 @@
+Object a will not be equal to b (neither in == nor in ===) as they are two different objects having different references but object a and c will have the same reference so they will equal for "==" and "===". So a==b and a===b will both evaluate to false and a==c and a===c will both evaluate to true.

@@ -1,0 +1,7 @@
+Output will be:
+true
+false
+NaN
+undefined is the value of a
+as variable a is uninitialized so it will be undefined. So first statement evaluates to true and a will have undefined value in fourth statement. As for the second statement undefined is not equal to null while doing strict equality check and in the third statement any number multiplying an undefined value will be NaN.
+

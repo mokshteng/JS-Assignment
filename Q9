@@ -1,0 +1,7 @@
+Output will be:
+2
+4
+3
+1
+as 2 and 4 don't move to the callback queue like 1 and 3, they are printed immediately and taken out of the call stack. After that 3 is printed as it had been moved to callback queue and should be printed after 0 seconds which is still after the excution of functions in the call stack and after 2 seconds 1 is printed.
+
