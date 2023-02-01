@@ -1,0 +1,25 @@
+const f1 = new Promise((resolve) => {
+  resolve("From F1");
+});
+const f2 = new Promise((resolve) => {
+  resolve("From F2");
+});
+const f3 = new Promise((resolve) => {
+  resolve("From F3");
+});
+const f4 = new Promise((resolve) => {
+  resolve("From F4");
+});
+
+f1.then((data)=>{
+    console.log(data)
+    return f2
+}).then((data)=>{
+    console.log(data)
+    return f3
+}).then((data)=>{
+    console.log(data)
+    return f4
+}).then((data)=>{
+    console.log(data)
+})
