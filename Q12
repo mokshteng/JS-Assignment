@@ -1,0 +1,4 @@
+Output will be:
+{first:50, second:30}
+As the value of key first will be overridden.
+

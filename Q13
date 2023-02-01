@@ -1,0 +1,1 @@
+Regex are sequence of characters used to search a particular pattern of the string. "^[a-zA-Z0-9]*$" is the regex for checking alphanumeric characters.

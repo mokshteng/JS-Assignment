@@ -1,0 +1,7 @@
+const filterEven = (arr) =>{
+    arr.filter((val)=>{
+        return val.age%2==0
+    }).map(val => {
+        console.log(val.name)
+    });
+}

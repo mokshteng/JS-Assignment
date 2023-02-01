@@ -1,0 +1,29 @@
+const obj = {
+    "+": function (num1, num2) {
+      return num1 + num2;
+    },
+    "-": function (num1, num2) {
+      return num1 - num2;
+    },
+    "*": function (num1, num2) {
+      return num1 * num2;
+    },
+    "/": function (num1, num2) {
+      return num1 / num2;
+    },
+  };
+const calculate = (num1, num2, sign) => {
+    console.log(obj[sign](num1,num2))
+};
+
+const expr = "11/2";
+const arr = expr.trim().split(/([+-/*])/);
+const [number1, sign, number2] = arr;
+const num1=parseInt(number1)
+const num2=parseInt(number2)
+if (isNaN(num1) && isNaN(num2)) {
+  console.log("Invalid");
+} else {
+  calculate(num1, num2, sign);
+}
+
