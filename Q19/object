@@ -1,0 +1,15 @@
+const person = { name: "Karl", age:20, gender:"Male"}
+const employee = {empID:1}
+console.log(Object.keys(person))
+//[ 'name', 'age', 'gender' ]
+
+console.log(Object.values(person))
+//[ 'Karl', 20, 'Male' ]
+
+Object.assign(employee,person)
+console.log(employee)
+//{ empID: 1, name: 'Karl', age: 20, gender: 'Male' }
+
+console.log(employee.hasOwnProperty('name'))
+//true
+

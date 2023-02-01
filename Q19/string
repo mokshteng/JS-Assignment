@@ -1,0 +1,64 @@
+const string = "  Hello, my name is Moksh Teng   ";
+
+console.log(string.toUpperCase())
+//HELLO, MY NAME IS MOKSH TENG   
+
+
+console.log(string.toLowerCase())
+//hello, my name is moksh teng   
+
+
+console.log(string.includes("my"))
+//true
+
+
+console.log(string.concat("....."))
+//  Hello, my name is Moksh Teng   .....
+
+console.log(string.indexOf("is"))
+//17
+
+console.log(string.endsWith("Teng"))
+//false
+
+console.log(string.startsWith("hello"))
+//false
+
+console.log(string.replace("l","b"))
+//  Heblo, my name is Moksh Teng
+
+console.log(string.replaceAll("l","b"))
+//  Hebbo, my name is Moksh Teng   
+
+console.log(string.substring(4,9))
+//llo,
+
+console.log(string.trim())
+//Hello, my name is Moksh Teng
+
+console.log(string.slice(3,8))
+//ello,
+
+console.log(string.split(" "))
+//[
+  '',       '',
+  'Hello,', 'my',
+  'name',   'is',
+  'Moksh',  'Teng',
+  '',       '',
+  ''
+]
+
+console.log(string.localeCompare("Yo Yo"))
+//-1
+  
+
+
+
+     
+
+ 
+
+
+
+
